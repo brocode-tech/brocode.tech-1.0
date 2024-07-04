@@ -296,7 +296,9 @@ body { background: var(--black-cultured); }
   #FEATURES
 \*-----------------------------------*/
 
-.features { padding-block: var(--section-padding); background-image:url(../images/scribble-background2.png );}
+.features { padding-block: var(--section-padding); background-image:url(../images/scribble-background.png );
+  background-repeat: no-repeat;
+  background-size: cover;}
 
 .features .section-title { margin-bottom: 40px; color: var(--black-cultured); }
 
