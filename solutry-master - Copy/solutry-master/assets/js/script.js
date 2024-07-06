@@ -39,3 +39,18 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.querySelector('.hero-banner video');
+    
+    // Unmute the video after it starts playing
+    video.addEventListener('play', function() {
+      video.muted = false;
+    });
+
+    // Hide controls
+    video.controls = false;
+  });
+</script>

@@ -289,7 +289,12 @@ body { background: var(--black-cultured); }
 .hero .btn { margin-inline: auto; }
 
 
-
+.hero-banner video {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin-left: 2rem;
+}
 
 
 /*-----------------------------------*\
