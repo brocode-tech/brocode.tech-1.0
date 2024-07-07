@@ -657,7 +657,7 @@ body { background: var(--black-cultured); cursor:grab }
 
 .marquee{
   margin-top:4rem;
-  transform: rotate(-0deg);
+  transform: rotate(-5deg);
   color:#201f1e
 }
 
