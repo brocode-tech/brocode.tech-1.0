@@ -657,18 +657,17 @@ body { background: var(--black-cultured); cursor:grab }
 
 .marquee{
   margin-top:4rem;
-  transform: rotate(-5deg);
+  transform: rotate(-0deg);
   color:#201f1e
 }
 
 .marquee-1 {
   overflow: hidden;
   position: relative;
-  width: 100%; /* Adjust as needed */
   background-color: var(--black-cultured);
-  margin-top: 1rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-top: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .marquee-content-1 {
@@ -692,8 +691,8 @@ body { background: var(--black-cultured); cursor:grab }
   position: relative;
   width: 100%; /* Adjust as needed */
   background-color: var(--yellow-logo-shade);
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .marquee-content-2 {
@@ -721,9 +720,9 @@ body { background: var(--black-cultured); cursor:grab }
   position: relative;
   width: 100%; /* Adjust as needed */
   background-color: var(--black-cultured);
-  margin-bottom: 1rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  margin-bottom: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .marquee-content-3 {
