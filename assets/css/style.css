@@ -368,12 +368,12 @@ body { background: var(--black-cultured); cursor:grab }
 .service .section-title { margin-bottom: 30px; }
 
 .service-item {
-  background: var(--black-cultured);
+  background: #2a2928;
   display: flex;
   align-items: center;
   gap: 15px;
   padding: 12px 20px;
-  box-shadow: 0 5px 25px 10px hsla(0, 0%, 0%, 0.02);
+  box-shadow: 0 5px 25px 10px hsla(0, 0%, 0%, 0.0);
   border-radius: var(--radius-8);
 }
 
