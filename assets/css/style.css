@@ -227,7 +227,7 @@ body { background: var(--black-cultured); cursor:grab }
 .nav-toggle-btn {
   color: var(--yellow-logo-shade);
   font-size: 35px;
-  padding-inline: 5px;
+  padding-inline: 5px;go-top
 }
 
 .nav-toggle-btn .open,
@@ -667,7 +667,7 @@ body { background: var(--black-cultured); cursor:grab }
   background: var(--black-cultured);
   color: var(--space-cadet);
   position: fixed;
-  bottom: 20px;
+  bottom: 70px;
   right: 20px;
   font-size: 20px;
   width: 45px;
