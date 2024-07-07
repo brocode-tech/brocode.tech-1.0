@@ -109,7 +109,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body { background: var(--black-cultured); }
+body { background: var(--black-cultured); cursor:grab }
 
 
 
@@ -293,7 +293,6 @@ body { background: var(--black-cultured); }
   width: 100%;
   height: auto;
   border-radius: 1rem;
-  margin-left: 2rem;
 }
 
 
@@ -301,9 +300,7 @@ body { background: var(--black-cultured); }
   #FEATURES
 \*-----------------------------------*/
 
-.features { padding-block: var(--section-padding); background-image:url(../images/scribble-background.png );
-  background-repeat: no-repeat;
-  background-size: cover;}
+.features { padding-block: var(--section-padding); }
 
 .features .section-title { margin-bottom: 40px; color: var(--black-cultured); }
 
@@ -698,12 +695,28 @@ body { background: var(--black-cultured); }
 }
 
 
+/* cursor animation css */
 
 
 
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+
+/* responsive larger than 200px screen*/
+@media (min-width: 200px){
+
+  .logo img { width:  20%; }
+
+  .features {
+    background-image:url(../images/scribble-background2.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+
 
 /**
  * responsive larger than 575px screen
@@ -719,13 +732,19 @@ body { background: var(--black-cultured); }
     max-width: 520px;
     margin-inline: auto;
   }
+  
+  .hero-banner video{
 
-
+  }
 
   /**
    * FEATURES
    */
-
+  .features {
+    background-image:url(../images/scribble-background2.png );
+   background-repeat: no-repeat;
+    background-size: cover;
+  }
   .features-list {
     grid-template-columns: 1fr 1fr;
     gap: 40px 30px;
@@ -737,7 +756,6 @@ body { background: var(--black-cultured); }
   }
 
 }
-
 
 
 
@@ -775,14 +793,22 @@ body { background: var(--black-cultured); }
    * REUSED STYLE
    */
 
+
   .container { max-width: 700px; }
 
+/* Home video */
+.hero-banner video{
+}
 
 
   /**
    * FEATURES
    */
-
+   .features {
+    background-image:url(../images/scribble-background.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
   .features-card { text-align: left; }
 
   .features-card .card-icon { margin-inline: 0; }
@@ -877,6 +903,9 @@ body { background: var(--black-cultured); }
    * REUSED STYLE
    */
 
+  
+   .logo img { width:  160px; }
+
   .container { max-width: 950px; }
 
   .section-title {
@@ -938,6 +967,8 @@ body { background: var(--black-cultured); }
   .hero-banner {
     margin-bottom: 0;
     order: 1;
+    margin-left: 2rem;
+
   }
 
   .hero-content { text-align: left; }

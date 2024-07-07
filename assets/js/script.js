@@ -41,16 +41,13 @@ window.addEventListener("scroll", function () {
 });
 
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var video = document.querySelector('.hero-banner video');
-    
-    // Unmute the video after it starts playing
-    video.addEventListener('play', function() {
-      video.muted = false;
-    });
+/* CURSOR CODE */
+var cursor = document.getElementById("cursor");
 
-    // Hide controls
-    video.controls = false;
-  });
-</script>
+document.onmousemove = function(event) {
+    cursor.style.left = (event.pageX - 10) + "px";
+    cursor.style.top = (event.pageY - 10) + "px";
+    cursor.style.display = "block";
+};
+
+
