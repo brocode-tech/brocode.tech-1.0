@@ -656,7 +656,9 @@ body { background: var(--black-cultured); cursor:grab }
 .social-link:is(:hover, :focus) { background: var(--yellow-logo-shade); }
 
 .marquee{
+  margin-top:4rem;
   transform: rotate(-5deg);
+  color:#201f1e
 }
 
 .marquee-1 {
