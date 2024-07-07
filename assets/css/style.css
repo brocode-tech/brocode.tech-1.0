@@ -225,7 +225,7 @@ body { background: var(--black-cultured); cursor:grab }
 .logo img { width: 160px; }
 
 .nav-toggle-btn {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: var(--yellow-logo-shade);
   font-size: 35px;
   padding-inline: 5px;
 }
