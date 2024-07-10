@@ -115,6 +115,8 @@ body { background: var(--black-cultured); cursor:grab }
 
 .w-100 { width: 95%; }
 
+.w-50{ width: 50%;}
+
 .h1,
 .h2,
 .h3 {
@@ -333,7 +335,7 @@ body { background: var(--black-cultured); cursor:grab }
 
 .features-card .card-link:is(:hover, :focus) {
   gap: 10px;
-  color: var(--space-cadet);
+  color: var(--black-cultured);
 }
 
 
